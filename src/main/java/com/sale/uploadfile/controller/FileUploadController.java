@@ -23,7 +23,7 @@ import java.util.UUID;
 @Slf4j
 @RestController
 @RequestMapping("/api/upload")
-public class FileUploadController {
+public class FileUploadController { //提交
     @Autowired
     private MinioConfig minioConfig;
     @Autowired
